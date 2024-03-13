@@ -36,7 +36,7 @@ function nextComponent(price, position, option){
  * y los envía a el servidor 
  */
 function sendInfo(){
-    const dialog = document.getElementById('dialog');
+    const dialog = document.getElementById('dialog-content');
     customer.name = document.getElementById('name').value;
     customer.phoneNumber = document.getElementById('phoneNumber').value;
     customer.email = document.getElementById('email').value;

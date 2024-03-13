@@ -115,10 +115,13 @@ ul{
 
 .social-media{
     display: flex;
+    flex-direction: column;
 }
 
 .social-media li {
     margin: 0 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .social-media li a{
@@ -126,6 +129,7 @@ ul{
     text-decoration: none;
     border: 5px;
     color: var(--text-color);
+    margin: 0.5rem;
 }
 
 .bg-red{
@@ -165,6 +169,7 @@ dialog{
     max-width: 900px;
     border-radius: 25px;
     border: none;
+    overflow: scroll;
 }
 
 .dialog-container{
@@ -174,6 +179,9 @@ dialog{
     align-items: end;
 }
 
+.biggest-font-size{
+    font-size: 2.5rem;
+}
 
 input{
     margin-top: 0.5rem;
@@ -202,5 +210,9 @@ input:focus{
 
     .biggest-font-size{
         font-size: 3rem;
+    }
+
+    .social-media{
+        flex-direction: row;
     }
 }
